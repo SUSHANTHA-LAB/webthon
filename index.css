@@ -1,0 +1,84 @@
+
+
+body, html{
+    height: 100%;
+}
+
+.center{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom_font1{
+    font-family: 'Abel', sans-serif;
+    vertical-align: auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cf3{
+    font-family: 'Abel', sans-serif;   
+    font-weight: bold;
+    color: black;
+}
+
+.cf4{
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+}
+
+.cf2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+}
+
+.trans_bg{
+    
+    opacity: 0.1;
+}
+
+.color1{
+    background-color: #b1040e;
+
+}
+
+  .caption {
+      position: absolute;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+  }
+
+  .caption span.border{
+      padding: 0px;
+      border: 0px;
+      font-family: 'Staatliches', cursive;
+      font-weight: 100;
+      font-size: 8rem;
+  }
+
+  .border{
+      border: none!important;
+      letter-spacing: 10px;
+  }
+
+  .bgimg-1, .bgimg-2 {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .bgimg-1 {
+    background-image: url("img/bg.jpg");
+    min-height: 100%;
+  }
+
+.bgimg-2{
+    background-image: url("img/hod.PNG");
+    min-height: 100%;
+}
